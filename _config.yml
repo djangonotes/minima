@@ -2,7 +2,7 @@ title: Django Notes
 author: GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Random [Django] (https://www.djangoproject.com) related notes to older myself. Mostly embarasingly simple staff that I 
+  Random Django related notes to older myself. Mostly embarasingly simple staff that I 
   regurarly forget and need to google out.
 
 show_excerpts: true

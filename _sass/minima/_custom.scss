@@ -1,4 +1,8 @@
 a.post-link {
-  text-decoration-style:dashed;
-  color:#E22A7A;
+  text-decoration:none;
+  color:#111;
+}
+
+a.post-link:hover {
+  border-bottom: 2px #e22a7a dashed;
 }

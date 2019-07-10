@@ -4,17 +4,15 @@ description: > # this means to ignore newlines until "show_excerpts:"
   regurarly forget and need to google out.
 
 show_excerpts: true
-
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
+
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
     # github:  jekyll
-     rss: rss
+    # rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll

@@ -6,21 +6,11 @@
     <div class="footer-col-wrapper">
       <div class="footer-col one-half">
       <h2 class="footer-heading"></h2>
-        
-      <div class="social-links">
-        {%- include social.html -%}
-</div>
-        
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+       <a href="{{ 'feed.xml' | relative_url }}" title="{{ social.rss | escape }}">
+         <svg class="svg-icon grey">
+           <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+         </svg>
+        </a>
       </div>
 
       <div class="footer-col one-half">

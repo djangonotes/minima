@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Django Setup"
+title: "#001 Django Setup"
 permalink: "/django-setup"
 ---
 

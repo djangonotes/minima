@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#002 Django Trickc"
+title: "#002 Django Tricks"
 permalink: "/django-tricks"
 ---
 
